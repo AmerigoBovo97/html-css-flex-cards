@@ -69,5 +69,28 @@ Cards
     color: #fffffe;
     margin: 0px 30px 50px 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-content: center;
+}
 
+.card img{
+    width: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.8rem;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.card a{
+    color: #5fc2eb;
+    text-decoration: none;
 }
