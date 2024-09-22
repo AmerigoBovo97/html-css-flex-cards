@@ -94,3 +94,15 @@ Cards
     color: #5fc2eb;
     text-decoration: none;
 }
+
+
+/**********************
+Media Query
+**********************/
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
